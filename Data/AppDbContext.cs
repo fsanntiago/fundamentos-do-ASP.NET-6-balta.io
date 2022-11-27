@@ -9,6 +9,6 @@ public class AppDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlite("DataSource=app.db;Cache=Shered");
+        optionsBuilder.UseSqlite("DataSource=app.db;Cache=Shared");
     }
 }
